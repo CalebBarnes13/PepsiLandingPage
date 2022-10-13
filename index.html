@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Pepsi Landing Page</title>
+  <section class="sec">
+    <header>
+      <a href="#"><img src="./assets/img/logo.png" class="logo" alt="logo" ></a>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">What's New</a></li>
+        <li><a href="#">Newletter</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </header>
+    <div class="content">
+      <div class="text-box">
+        <h2>That's What<br><span>I like</span></h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci quod eius debitis minima vero provident nisi, quis quaerat, vel cumque eveniet odit sit iste illo molestiae fugit omnis ea enim.
+        </p>
+        <a href="#">View All Products</a>
+      </div>
+      <div class="imgBox">
+        <img src="./assets/img/pepsi001.png" class="pepsi" alt="">
+      </div>
+    </div>
+    <ul class="thumb">
+      <li><img src="./assets/img/pepsi001.png" onclick="imgSlider('./assets/img/pepsi001.png'); changeBgColor('#0062be')" alt=""></li>
+      <li><img src="./assets/img/pepsi002.png" onclick="imgSlider('./assets/img/pepsi002.png'); changeBgColor('#e60c2c')" alt=""></li>
+      <li><img src="./assets/img/pepsi003.png" onclick="imgSlider('./assets/img/pepsi003.png'); changeBgColor('#1e1e1e')" alt=""></li>
+    </ul>
+    <ul class="sci">
+      <li><a href=""><img src="./assets/img/facebook.png" alt=""></a></li>
+      <li><a href=""><img src="./assets/img/twitter.png" alt=""></a></li>
+      <li><a href=""><img src="./assets/img/instagram.png" alt=""></a></li>
+    </ul>
+  </section>
+<script src="./app.js"></script>
+</body>
+</html>
